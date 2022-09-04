@@ -1,1 +1,17 @@
-<input type="button" onclick="window.open('https://www.webmaker.app/app','MyWindow','width=800,height=500,toolbar=no,menubar=no,location=no,status=no,scrollbars=no,resizable=no,left=283,top=134');return false;" value="Click To Open Window"/>
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="Button" onclick="myFunction()" Value="Start"/>
+
+<script>
+function myFunction(){
+
+let x = prompt("Paste Website");
+window.open(x);
+}
+
+</script>
+
+</body>
+</html>
