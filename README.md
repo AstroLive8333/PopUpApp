@@ -1,3 +1,3 @@
 Insert URL
 
-<button onclick="prompt(insert url)" value="URL"/>
+<button onclick="window.open(https://www.google.com" value="URL"/>
